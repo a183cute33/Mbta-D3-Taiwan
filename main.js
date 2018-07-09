@@ -43,8 +43,11 @@
             var yRange = d3.extent(inputData.nodes, function (d) {
               return d.y;
             });
-            var outerWidth = 400,
-              outerHeight = 400;
+            console.log(xRange);
+            console.log(yRange);
+
+            var outerWidth = 600,
+              outerHeight = 600;
             var m = Math.min(outerWidth, outerHeight) / 20;
             margin = {
               top: m,
@@ -55,10 +58,15 @@
             var width = outerWidth - margin.left - margin.right,
               height = outerHeight - margin.top - margin.bottom;
             var xScale = width / (xRange[1] - xRange[0]);
+            console.log(xScale);
             var yScale = height / (yRange[1] - yRange[0]);
+            console.log(yScale);
             var scale = Math.min(xScale, yScale);
+            console.log(scale);
+
             //終點圓大小
-            var endDotRadius = 0.2 * scale;
+            var endDotRadius = 5 * scale;
+            console.log(endDotRadius);
             inputData.nodes.forEach(function (data) {
               data.pos = [data.x * scale, data.y * scale];
             });
@@ -79,41 +87,6 @@
               });
             svg.call(tip);
 
-            svg.selectAll('.station')
-              .data(inputData.nodes)
-              .enter()
-              .append('circle')
-              .style('cursor', 'pointer')
-              .attr('class', function (d) {
-                return 'station middle station-label ' + d.id;
-              })
-              .attr('cx', function (d) {
-                return d.pos[0];
-              })
-              .attr('cy', function (d) {
-                return d.pos[1];
-              })
-              .attr('r', function (d) {
-                return sizeScale(averageSecondsBetweenStops[d.id]);
-              })
-              .on('mouseover', function (d) {
-                //移過去顯示 站名
-                if (d.pos[1] < 30) {
-                  tip.direction('e')
-                    .offset([0, 10]);
-                } else {
-                  tip.direction('n')
-                    .offset([-10, 0]);
-                }
-                tip.show(d);
-                // window.highlightMareyTitle(d.id, _.unique(d.links.map(function (link) {
-                //   return link.line;
-                // })));
-              })
-              .on('mouseout', function (d) {
-                tip.hide(d);
-                // window.highlightMareyTitle(null);
-              });
             //中間畫線的部分
             svg.selectAll('.connect')
               .data(inputData.links)
@@ -137,21 +110,66 @@
                 return d.target.pos[1];
               });
 
+            svg.selectAll('.station')
+              .data(inputData.nodes)
+              .enter()
+              .append('circle')
+              .style('cursor', 'pointer')
+              .attr('class', function (d) {
+                return 'station middle station-label ' + d.id;
+              })
+              .attr('cx', function (d) {
+                return d.pos[0];
+              })
+              .attr('cy', function (d) {
+                return d.pos[1];
+              })
+              .attr('r', 3)
+              // .attr('r', function (d) {
+              //   return sizeScale(averageSecondsBetweenStops[d.id]);
+              // })
+              .on('mouseover', function (d) {
+                //移過去顯示 站名
+                if (d.pos[1] < 30) {
+                  tip.direction('e')
+                    .offset([0, 10]);
+                } else {
+                  tip.direction('n')
+                    .offset([-10, 0]);
+                }
+                tip.show(d);
+              })
+              .on('mouseout', function (d) {
+                tip.hide(d);
+              });
+
+
             //起末站 套疊顏色
             function dot(id, clazz) {
               svg.selectAll('circle.' + id)
-                .classed(clazz, true)
+                .attr('style', 'fill:' + clazz)
                 .classed('end', true)
                 .classed('middle', false)
                 .attr('r', endDotRadius);
             }
-            dot('place-asmnl', "red");
-            dot('place-alfcl', "red");
-            dot('place-brntn', "red");
-            dot('place-wondl', "blue");
-            dot('place-bomnl', "blue");
-            dot('place-forhl', "orange");
-            dot('place-ogmnl', "orange");
+            dot('BR01', "#b57a25");
+            //中和新蘆線
+            dot('O21', "#f5a818");
+            dot('O54', "#f5a818");
+            dot('O01', "#f5a818");
+            //松山新店線
+            dot('G01', "#107547");
+            dot('G19', "#107547");
+            //淡水信義線
+            dot('R28', "#d90023");
+            dot('R02', "#d90023");
+            //板南線
+            dot('BL01', "#0a59ae");
+            dot('BL23', "#0a59ae");
+            //小碧潭
+            dot('G03A', "#d2de1a");
+            //新北投
+            dot('R22A', "#ef9298");
           })
       });
   });

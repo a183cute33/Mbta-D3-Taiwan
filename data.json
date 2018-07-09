@@ -1,612 +1,1444 @@
 {
-  "nodes": [
-    {
-      "id": "place-knncl",
-      "name": "Kendall/MIT Station",
-      "lat": "42.36249079",
-      "lon": "-71.08617653"
+  "nodes": [{
+      "id": "BR01",
+      "name": "動物園",
+      "lat": "121.57950099999999",
+      "lon": "24.998204999999999"
     },
     {
-      "id": "place-asmnl",
-      "name": "Ashmont Station",
-      "lat": "42.284652",
-      "lon": "-71.064489"
+      "id": "BR02",
+      "name": "木柵",
+      "lat": "121.573127",
+      "lon": "24.998239999999999"
     },
     {
-      "id": "place-fldcr",
-      "name": "Fields Corner Station",
-      "lat": "42.300093",
-      "lon": "-71.061667"
+      "id": "BR03",
+      "name": "萬芳社區",
+      "lat": "121.568088",
+      "lon": "24.998570000000001"
     },
     {
-      "id": "place-shmnl",
-      "name": "Savin Hill Station",
-      "lat": "42.31129",
-      "lon": "-71.053331"
+      "id": "BR04",
+      "name": "萬芳醫院",
+      "lat": "121.558092",
+      "lon": "24.999320000000001"
     },
     {
-      "id": "place-jfk",
-      "name": "JFK/UMass Station",
-      "lat": "42.320685",
-      "lon": "-71.052391"
+      "id": "BR05",
+      "name": "辛亥",
+      "lat": "121.557046",
+      "lon": "25.005455000000001"
     },
     {
-      "id": "place-andrw",
-      "name": "Andrew Station",
-      "lat": "42.330154",
-      "lon": "-71.057655"
+      "id": "BR06",
+      "name": "麟光",
+      "lat": "121.558834",
+      "lon": "25.018495000000001"
     },
     {
-      "id": "place-brdwy",
-      "name": "Broadway Station",
-      "lat": "42.342622",
-      "lon": "-71.056967"
+      "id": "BR07",
+      "name": "六張犁",
+      "lat": "121.55302",
+      "lon": "25.023810000000001"
     },
     {
-      "id": "place-sstat",
-      "name": "South Station",
-      "lat": "42.352271",
-      "lon": "-71.055242"
+      "id": "BR08",
+      "name": "科技大樓",
+      "lat": "121.54346200000001",
+      "lon": "25.026119999999999"
     },
     {
-      "id": "place-dwnxg",
-      "name": "Downtown Crossing Station",
-      "lat": "42.355518",
-      "lon": "-71.060225"
+      "id": "BR09",
+      "name": "大安",
+      "lat": "121.54237000000001",
+      "lon": "25.033311000000001"
     },
     {
-      "id": "place-pktrm",
-      "name": "Park St. Station",
-      "lat": "42.35639457",
-      "lon": "-71.0624242"
+      "id": "BR10",
+      "name": "忠孝復興",
+      "lat": "121.54502599999999",
+      "lon": "25.041748999999999"
     },
     {
-      "id": "place-chmnl",
-      "name": "Charles/MGH Station",
-      "lat": "42.361166",
-      "lon": "-71.070628"
+      "id": "BR11",
+      "name": "南京復興",
+      "lat": "121.544303",
+      "lon": "25.052043999999999"
     },
     {
-      "id": "place-smmnl",
-      "name": "Shawmut Station",
-      "lat": "42.29312583",
-      "lon": "-71.06573796"
+      "id": "BR12",
+      "name": "中山國中",
+      "lat": "121.54421499999999",
+      "lon": "25.060849999999999"
     },
     {
-      "id": "place-cntsq",
-      "name": "Central Square Station",
-      "lat": "42.365486",
-      "lon": "-71.103802"
+      "id": "BR13",
+      "name": "松山機場",
+      "lat": "121.55201",
+      "lon": "25.062908"
     },
     {
-      "id": "place-harsq",
-      "name": "Harvard Square Station",
-      "lat": "42.373362",
-      "lon": "-71.118956"
+      "id": "BR14",
+      "name": "大直",
+      "lat": "121.54679",
+      "lon": "25.079429999999999"
     },
     {
-      "id": "place-portr",
-      "name": "Porter Square Station",
-      "lat": "42.3884",
-      "lon": "-71.119149"
+      "id": "BR15",
+      "name": "劍南路",
+      "lat": "121.555582",
+      "lon": "25.08483"
     },
     {
-      "id": "place-davis",
-      "name": "Davis Station",
-      "lat": "42.39674",
-      "lon": "-71.121815"
+      "id": "BR16",
+      "name": "西湖",
+      "lat": "121.567227",
+      "lon": "25.082159999999998"
     },
     {
-      "id": "place-alfcl",
-      "name": "Alewife Station",
-      "lat": "42.395428",
-      "lon": "-71.142483"
+      "id": "BR17",
+      "name": "港墘",
+      "lat": "121.57516",
+      "lon": "25.080069999999999"
     },
     {
-      "id": "place-nqncy",
-      "name": "North Quincy Station",
-      "lat": "42.275275",
-      "lon": "-71.029583"
+      "id": "BR18",
+      "name": "文德",
+      "lat": "121.584999",
+      "lon": "25.078455000000002"
     },
     {
-      "id": "place-wlsta",
-      "name": "Wollaston Station",
-      "lat": "42.2665139",
-      "lon": "-71.0203369"
+      "id": "BR19",
+      "name": "內湖",
+      "lat": "121.594363",
+      "lon": "25.083674999999999"
     },
     {
-      "id": "place-qnctr",
-      "name": "Quincy Center Station",
-      "lat": "42.251809",
-      "lon": "-71.005409"
+      "id": "BR20",
+      "name": "大湖公園",
+      "lat": "121.602214",
+      "lon": "25.083805000000002"
     },
     {
-      "id": "place-qamnl",
-      "name": "Quincy Adams Station",
-      "lat": "42.233391",
-      "lon": "-71.007153"
+      "id": "BR21",
+      "name": "葫洲",
+      "lat": "121.607146",
+      "lon": "25.072710000000001"
     },
     {
-      "id": "place-brntn",
-      "name": "Braintree Station",
-      "lat": "42.2078543",
-      "lon": "-71.0011385"
+      "id": "BR22",
+      "name": "東湖",
+      "lat": "121.611535",
+      "lon": "25.067454999999999"
     },
     {
-      "id": "place-chncl",
-      "name": "Chinatown Station",
-      "lat": "42.352547",
-      "lon": "-71.062752"
+      "id": "BR23",
+      "name": "南港軟體園區",
+      "lat": "121.61499999999999",
+      "lon": "25.059920000000002"
     },
     {
-      "id": "place-forhl",
-      "name": "Forest Hills Station",
-      "lat": "42.300523",
-      "lon": "-71.113686"
+      "id": "BR24",
+      "name": "南港展覽館",
+      "lat": "121.616861",
+      "lon": "25.054919000000002"
     },
     {
-      "id": "place-sbmnl",
-      "name": "Stony Brook Station",
-      "lat": "42.317062",
-      "lon": "-71.104248"
+      "id": "R02",
+      "name": "象山",
+      "lat": "121.570116",
+      "lon": "25.032395000000001"
     },
     {
-      "id": "place-jaksn",
-      "name": "Jackson Square Station",
-      "lat": "42.323132",
-      "lon": "-71.099592"
+      "id": "R03",
+      "name": "台北101/世貿",
+      "lat": "121.563667",
+      "lon": "25.032865000000001"
     },
     {
-      "id": "place-rcmnl",
-      "name": "Roxbury Crossing Station",
-      "lat": "42.331397",
-      "lon": "-71.095451"
+      "id": "R04",
+      "name": "信義安和",
+      "lat": "121.55232599999999",
+      "lon": "25.033014999999999"
     },
     {
-      "id": "place-rugg",
-      "name": "Ruggles Station",
-      "lat": "42.336377",
-      "lon": "-71.088961"
+      "id": "R05",
+      "name": "大安",
+      "lat": "121.54237000000001",
+      "lon": "25.033311000000001"
     },
     {
-      "id": "place-masta",
-      "name": "Massachusetts Ave. Station",
-      "lat": "42.341512",
-      "lon": "-71.083423"
+      "id": "R06",
+      "name": "大安森林公園",
+      "lat": "121.536151",
+      "lon": "25.033225000000002"
     },
     {
-      "id": "place-bbsta",
-      "name": "Back Bay Station",
-      "lat": "42.34735",
-      "lon": "-71.075727"
+      "id": "R07",
+      "name": "東門",
+      "lat": "121.528766",
+      "lon": "25.033894"
     },
     {
-      "id": "place-tumnl",
-      "name": "Tufts Medical Center Station",
-      "lat": "42.349662",
-      "lon": "-71.063917"
+      "id": "R08",
+      "name": "中正紀念堂",
+      "lat": "121.51827299999999",
+      "lon": "25.032767"
     },
     {
-      "id": "place-grnst",
-      "name": "Green St. Station",
-      "lat": "42.310525",
-      "lon": "-71.107414"
+      "id": "R09",
+      "name": "台大醫院",
+      "lat": "121.51602",
+      "lon": "25.041398999999998"
     },
     {
-      "id": "place-state",
-      "name": "State St. Station",
-      "lat": "42.358978",
-      "lon": "-71.057598"
+      "id": "R10",
+      "name": "台北車站",
+      "lat": "121.517415",
+      "lon": "25.046309999999998"
     },
     {
-      "id": "place-haecl",
-      "name": "Haymarket Station",
-      "lat": "42.363021",
-      "lon": "-71.05829"
+      "id": "R11",
+      "name": "中山",
+      "lat": "121.520364",
+      "lon": "25.052620999999998"
     },
     {
-      "id": "place-north",
-      "name": "North Station",
-      "lat": "42.365577",
-      "lon": "-71.06129"
+      "id": "R12",
+      "name": "雙連",
+      "lat": "121.520685",
+      "lon": "25.057575"
     },
     {
-      "id": "place-ccmnl",
-      "name": "Community College Station",
-      "lat": "42.373622",
-      "lon": "-71.069533"
+      "id": "R13",
+      "name": "民權西路",
+      "lat": "121.51958500000001",
+      "lon": "25.062349999999999"
     },
     {
-      "id": "place-sull",
-      "name": "Sullivan Station",
-      "lat": "42.383975",
-      "lon": "-71.076994"
+      "id": "R14",
+      "name": "圓山",
+      "lat": "121.52007399999999",
+      "lon": "25.071408999999999"
     },
     {
-      "id": "place-welln",
-      "name": "Wellington Station",
-      "lat": "42.40237",
-      "lon": "-71.077082"
+      "id": "R15",
+      "name": "劍潭",
+      "lat": "121.52495500000001",
+      "lon": "25.084201"
     },
     {
-      "id": "place-mlmnl",
-      "name": "Malden Center Station",
-      "lat": "42.426632",
-      "lon": "-71.07411"
+      "id": "R16",
+      "name": "士林",
+      "lat": "121.52623",
+      "lon": "25.093492000000001"
     },
     {
-      "id": "place-ogmnl",
-      "name": "Oak Grove Station",
-      "lat": "42.43668",
-      "lon": "-71.071097"
+      "id": "R17",
+      "name": "芝山",
+      "lat": "121.52254600000001",
+      "lon": "25.102717999999999"
     },
     {
-      "id": "place-aport",
-      "name": "Airport Station",
-      "lat": "42.374262",
-      "lon": "-71.030395"
+      "id": "R18",
+      "name": "明德",
+      "lat": "121.51878499999999",
+      "lon": "25.109815000000001"
     },
     {
-      "id": "place-wondl",
-      "name": "Wonderland Station",
-      "lat": "42.41342",
-      "lon": "-70.991648"
+      "id": "R19",
+      "name": "石牌",
+      "lat": "121.51557200000001",
+      "lon": "25.114455"
     },
     {
-      "id": "place-bmmnl",
-      "name": "Beachmont Station",
-      "lat": "42.39754234",
-      "lon": "-70.99231944"
+      "id": "R20",
+      "name": "唭哩岸",
+      "lat": "121.50623400000001",
+      "lon": "25.120851999999999"
     },
     {
-      "id": "place-sdmnl",
-      "name": "Suffolk Downs Station",
-      "lat": "42.39050067",
-      "lon": "-70.99712259"
+      "id": "R21",
+      "name": "奇岩",
+      "lat": "121.50114000000001",
+      "lon": "25.12547"
     },
     {
-      "id": "place-orhte",
-      "name": "Orient Heights Station",
-      "lat": "42.386867",
-      "lon": "-71.004736"
+      "id": "R22",
+      "name": "北投",
+      "lat": "121.498648",
+      "lon": "25.131819"
     },
     {
-      "id": "place-wimnl",
-      "name": "Wood Island Station",
-      "lat": "42.3796403",
-      "lon": "-71.02286539"
+      "id": "R23",
+      "name": "復興崗",
+      "lat": "121.485456",
+      "lon": "25.137497"
     },
     {
-      "id": "place-rbmnl",
-      "name": "Revere Beach Station",
-      "lat": "42.40784254",
-      "lon": "-70.99253321"
+      "id": "R24",
+      "name": "忠義",
+      "lat": "121.473298",
+      "lon": "25.130922999999999"
     },
     {
-      "id": "place-mvbcl",
-      "name": "Maverick Station",
-      "lat": "42.36911856",
-      "lon": "-71.03952958"
+      "id": "R25",
+      "name": "關渡",
+      "lat": "121.467",
+      "lon": "25.125509999999998"
     },
     {
-      "id": "place-aqucl",
-      "name": "Aquarium Station",
-      "lat": "42.359784",
-      "lon": "-71.051652"
+      "id": "R26",
+      "name": "竹圍",
+      "lat": "121.45954999999999",
+      "lon": "25.136900000000001"
     },
     {
-      "id": "place-gover",
-      "name": "Government Center Station",
-      "lat": "42.359705",
-      "lon": "-71.059215"
+      "id": "R27",
+      "name": "紅樹林",
+      "lat": "121.4588",
+      "lon": "25.15399"
     },
     {
-      "id": "place-bomnl",
-      "name": "Bowdoin Station",
-      "lat": "42.361365",
-      "lon": "-71.062037"
+      "id": "R28",
+      "name": "淡水",
+      "lat": "121.44580500000001",
+      "lon": "25.167745"
+    },
+    {
+      "id": "G01",
+      "name": "新店",
+      "lat": "121.53746",
+      "lon": "24.957609999999999"
+    },
+    {
+      "id": "G02",
+      "name": "新店區公所",
+      "lat": "121.54130000000001",
+      "lon": "24.96744"
+    },
+    {
+      "id": "G03",
+      "name": "七張",
+      "lat": "121.542985",
+      "lon": "24.975449999999999"
+    },
+    {
+      "id": "G04",
+      "name": "大坪林",
+      "lat": "121.54134000000001",
+      "lon": "24.98272"
+    },
+    {
+      "id": "G05",
+      "name": "景美",
+      "lat": "121.54069699999999",
+      "lon": "24.992823999999999"
+    },
+    {
+      "id": "G06",
+      "name": "萬隆",
+      "lat": "121.539008",
+      "lon": "25.001978000000001"
+    },
+    {
+      "id": "G07",
+      "name": "公館",
+      "lat": "121.534358",
+      "lon": "25.014780999999999"
+    },
+    {
+      "id": "G08",
+      "name": "台電大樓",
+      "lat": "121.528143",
+      "lon": "25.020733"
+    },
+    {
+      "id": "G09",
+      "name": "古亭",
+      "lat": "121.522868",
+      "lon": "25.026373"
+    },
+    {
+      "id": "G10",
+      "name": "中正紀念堂",
+      "lat": "121.51827299999999",
+      "lon": "25.032767"
+    },
+    {
+      "id": "G11",
+      "name": "小南門",
+      "lat": "121.51088",
+      "lon": "25.035585000000001"
+    },
+    {
+      "id": "G12",
+      "name": "西門",
+      "lat": "121.50817499999999",
+      "lon": "25.042024999999999"
+    },
+    {
+      "id": "G13",
+      "name": "北門",
+      "lat": "121.510184",
+      "lon": "25.049554000000001"
+    },
+    {
+      "id": "G14",
+      "name": "中山",
+      "lat": "121.520364",
+      "lon": "25.052620999999998"
+    },
+    {
+      "id": "G15",
+      "name": "松江南京",
+      "lat": "121.53285",
+      "lon": "25.052693000000001"
+    },
+    {
+      "id": "G16",
+      "name": "南京復興",
+      "lat": "121.544303",
+      "lon": "25.052043999999999"
+    },
+    {
+      "id": "G17",
+      "name": "台北小巨蛋",
+      "lat": "121.552549",
+      "lon": "25.05152"
+    },
+    {
+      "id": "G18",
+      "name": "南京三民",
+      "lat": "121.56471000000001",
+      "lon": "25.051587999999999"
+    },
+    {
+      "id": "G19",
+      "name": "松山",
+      "lat": "121.57770600000001",
+      "lon": "25.050118000000001"
+    },
+    {
+      "id": "O01",
+      "name": "南勢角",
+      "lat": "121.509237",
+      "lon": "24.990065000000001"
+    },
+    {
+      "id": "O02",
+      "name": "景安",
+      "lat": "121.50511400000001",
+      "lon": "24.993919999999999"
+    },
+    {
+      "id": "O03",
+      "name": "永安市場",
+      "lat": "121.511225",
+      "lon": "25.002894999999999"
+    },
+    {
+      "id": "O04",
+      "name": "頂溪",
+      "lat": "121.515462",
+      "lon": "25.013857999999999"
+    },
+    {
+      "id": "O05",
+      "name": "古亭",
+      "lat": "121.522868",
+      "lon": "25.026373"
+    },
+    {
+      "id": "O06",
+      "name": "東門",
+      "lat": "121.528766",
+      "lon": "25.033894"
+    },
+    {
+      "id": "O07",
+      "name": "忠孝新生",
+      "lat": "121.53321",
+      "lon": "25.042497999999998"
+    },
+    {
+      "id": "O08",
+      "name": "松江南京",
+      "lat": "121.53285",
+      "lon": "25.052693000000001"
+    },
+    {
+      "id": "O09",
+      "name": "行天宮",
+      "lat": "121.53315000000001",
+      "lon": "25.059239999999999"
+    },
+    {
+      "id": "O10",
+      "name": "中山國小",
+      "lat": "121.52660899999999",
+      "lon": "25.062664999999999"
+    },
+    {
+      "id": "O11",
+      "name": "民權西路",
+      "lat": "121.51958500000001",
+      "lon": "25.062349999999999"
+    },
+    {
+      "id": "O12",
+      "name": "大橋頭",
+      "lat": "121.513003",
+      "lon": "25.063220000000001"
+    },
+    {
+      "id": "O13",
+      "name": "台北橋",
+      "lat": "121.500575",
+      "lon": "25.063075000000001"
+    },
+    {
+      "id": "O14",
+      "name": "菜寮",
+      "lat": "121.491421",
+      "lon": "25.059450999999999"
+    },
+    {
+      "id": "O15",
+      "name": "三重",
+      "lat": "121.48421999999999",
+      "lon": "25.055710000000001"
+    },
+    {
+      "id": "O16",
+      "name": "先嗇宮",
+      "lat": "121.47165",
+      "lon": "25.046320000000001"
+    },
+    {
+      "id": "O17",
+      "name": "頭前庄",
+      "lat": "121.46165499999999",
+      "lon": "25.039735"
+    },
+    {
+      "id": "O18",
+      "name": "新莊",
+      "lat": "121.45218",
+      "lon": "25.036079999999998"
+    },
+    {
+      "id": "O19",
+      "name": "輔大",
+      "lat": "121.43573499999999",
+      "lon": "25.032789999999999"
+    },
+    {
+      "id": "O20",
+      "name": "丹鳳",
+      "lat": "121.422422",
+      "lon": "25.029073"
+    },
+    {
+      "id": "O21",
+      "name": "迴龍",
+      "lat": "121.41175699999999",
+      "lon": "25.022106999999998"
+    },
+    {
+      "id": "O50",
+      "name": "三重國小",
+      "lat": "121.49701",
+      "lon": "25.070274999999999"
+    },
+    {
+      "id": "O51",
+      "name": "三和國中",
+      "lat": "121.486795",
+      "lon": "25.076460000000001"
+    },
+    {
+      "id": "O52",
+      "name": "徐匯中學",
+      "lat": "121.479945",
+      "lon": "25.080484999999999"
+    },
+    {
+      "id": "O53",
+      "name": "三民高中",
+      "lat": "121.473365",
+      "lon": "25.085425000000001"
+    },
+    {
+      "id": "O54",
+      "name": "蘆洲",
+      "lat": "121.46471",
+      "lon": "25.091519999999999"
+    },
+    {
+      "id": "BL01",
+      "name": "頂埔",
+      "lat": "121.4205",
+      "lon": "24.96012"
+    },
+    {
+      "id": "BL02",
+      "name": "永寧",
+      "lat": "121.43613000000001",
+      "lon": "24.966819999999998"
+    },
+    {
+      "id": "BL03",
+      "name": "土城",
+      "lat": "121.44432",
+      "lon": "24.973130000000001"
+    },
+    {
+      "id": "BL04",
+      "name": "海山",
+      "lat": "121.44873",
+      "lon": "24.985305"
+    },
+    {
+      "id": "BL05",
+      "name": "亞東醫院",
+      "lat": "121.452465",
+      "lon": "24.998280000000001"
+    },
+    {
+      "id": "BL06",
+      "name": "府中",
+      "lat": "121.459276",
+      "lon": "25.008465000000001"
+    },
+    {
+      "id": "BL07",
+      "name": "板橋",
+      "lat": "121.462305",
+      "lon": "25.013825000000001"
+    },
+    {
+      "id": "BL08",
+      "name": "新埔",
+      "lat": "121.46805500000001",
+      "lon": "25.02327"
+    },
+    {
+      "id": "BL09",
+      "name": "江子翠",
+      "lat": "121.47257",
+      "lon": "25.030265"
+    },
+    {
+      "id": "BL10",
+      "name": "龍山寺",
+      "lat": "121.500325",
+      "lon": "25.03528"
+    },
+    {
+      "id": "BL11",
+      "name": "西門",
+      "lat": "121.50817499999999",
+      "lon": "25.042024999999999"
+    },
+    {
+      "id": "BL12",
+      "name": "台北車站",
+      "lat": "121.517415",
+      "lon": "25.046309999999998"
+    },
+    {
+      "id": "BL13",
+      "name": "善導寺",
+      "lat": "121.52388500000001",
+      "lon": "25.04468"
+    },
+    {
+      "id": "BL14",
+      "name": "忠孝新生",
+      "lat": "121.53321",
+      "lon": "25.042497999999998"
+    },
+    {
+      "id": "BL15",
+      "name": "忠孝復興",
+      "lat": "121.54502599999999",
+      "lon": "25.041748999999999"
+    },
+    {
+      "id": "BL16",
+      "name": "忠孝敦化",
+      "lat": "121.55045",
+      "lon": "25.041505000000001"
+    },
+    {
+      "id": "BL17",
+      "name": "國父紀念館",
+      "lat": "121.55781500000001",
+      "lon": "25.041370000000001"
+    },
+    {
+      "id": "BL18",
+      "name": "市政府",
+      "lat": "121.565685",
+      "lon": "25.041135000000001"
+    },
+    {
+      "id": "BL19",
+      "name": "永春",
+      "lat": "121.5762",
+      "lon": "25.040855000000001"
+    },
+    {
+      "id": "BL20",
+      "name": "後山埤",
+      "lat": "121.58226999999999",
+      "lon": "25.044715"
+    },
+    {
+      "id": "BL21",
+      "name": "昆陽",
+      "lat": "121.593228",
+      "lon": "25.050459"
+    },
+    {
+      "id": "BL22",
+      "name": "南港",
+      "lat": "121.60697",
+      "lon": "25.052035"
+    },
+    {
+      "id": "BL23",
+      "name": "南港展覽館",
+      "lat": "121.616861",
+      "lon": "25.054919000000002"
+    },
+    {
+      "id": "R22",
+      "name": "北投",
+      "lat": "121.498648",
+      "lon": "25.131819"
+    },
+    {
+      "id": "R22A",
+      "name": "新北投",
+      "lat": "121.502595",
+      "lon": "25.136931000000001"
+    },
+    {
+      "id": "G03",
+      "name": "七張",
+      "lat": "121.542985",
+      "lon": "24.975449999999999"
+    },
+    {
+      "id": "G03A",
+      "name": "小碧潭",
+      "lat": "121.53058",
+      "lon": "24.971879999999999"
     }
   ],
-  "links": [
-    {
-      "source": 5,
-      "target": 6,
-      "line": "red",
-      "color": "E12D27"
+  "links": [{
+      "source": 0,
+      "target": 1,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
       "source": 1,
-      "target": 11,
-      "line": "red",
-      "color": "E12D27"
+      "target": 2,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 6,
-      "target": 7,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 21,
-      "target": 20,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 10,
-      "target": 0,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 12,
-      "target": 13,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 15,
-      "target": 16,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 8,
-      "target": 9,
-      "line": "red",
-      "color": "E12D27"
+      "source": 1,
+      "target": 2,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
       "source": 2,
       "target": 3,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 13,
-      "target": 14,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 4,
-      "target": 5,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 0,
-      "target": 12,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 17,
-      "target": 4,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 9,
-      "target": 10,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 14,
-      "target": 15,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 20,
-      "target": 19,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 19,
-      "target": 18,
-      "line": "red",
-      "color": "E12D27"
+      "line": "brown",
+      "color": "B57a25"
     },
     {
       "source": 3,
       "target": 4,
-      "line": "red",
-      "color": "E12D27"
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 11,
-      "target": 2,
-      "line": "red",
-      "color": "E12D27"
+      "source": 4,
+      "target": 5,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
       "source": 7,
       "target": 8,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 18,
-      "target": 17,
-      "line": "red",
-      "color": "E12D27"
-    },
-    {
-      "source": 29,
-      "target": 30,
-      "line": "orange",
-      "color": "E87200"
-    },
-    {
-      "source": 35,
-      "target": 36,
-      "line": "orange",
-      "color": "E87200"
-    },
-    {
-      "source": 22,
-      "target": 8,
-      "line": "orange",
-      "color": "E87200"
+      "line": "brown",
+      "color": "B57a25"
     },
     {
       "source": 8,
-      "target": 32,
-      "line": "orange",
-      "color": "E87200"
+      "target": 9,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 23,
-      "target": 31,
-      "line": "orange",
-      "color": "E87200"
+      "source": 9,
+      "target": 10,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 31,
-      "target": 24,
-      "line": "orange",
-      "color": "E87200"
+      "source": 10,
+      "target": 11,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 33,
-      "target": 34,
-      "line": "orange",
-      "color": "E87200"
+      "source": 11,
+      "target": 12,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 25,
-      "target": 26,
-      "line": "orange",
-      "color": "E87200"
+      "source": 12,
+      "target": 13,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 28,
-      "target": 29,
-      "line": "orange",
-      "color": "E87200"
+      "source": 13,
+      "target": 14,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 38,
-      "target": 39,
-      "line": "orange",
-      "color": "E87200"
+      "source": 14,
+      "target": 15,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 34,
-      "target": 35,
-      "line": "orange",
-      "color": "E87200"
+      "source": 15,
+      "target": 16,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 26,
-      "target": 27,
-      "line": "orange",
-      "color": "E87200"
+      "source": 16,
+      "target": 17,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
-      "source": 27,
-      "target": 28,
-      "line": "orange",
-      "color": "E87200"
+      "source": 17,
+      "target": 18,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 19,
+      "target": 20,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "line": "brown",
+      "color": "B57a25"
+    },
+    {
+      "source": 22,
+      "target": 23,
+      "line": "brown",
+      "color": "B57a25"
     },
     {
       "source": 24,
       "target": 25,
-      "line": "orange",
-      "color": "E87200"
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 25,
+      "target": 26,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 26,
+      "target": 27,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 27,
+      "target": 28,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 28,
+      "target": 29,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 29,
+      "target": 30,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 30,
+      "target": 31,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 31,
+      "target": 32,
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 32,
       "target": 33,
-      "line": "orange",
-      "color": "E87200"
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 34,
+      "target": 35,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 35,
+      "target": 36,
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 36,
       "target": 37,
-      "line": "orange",
-      "color": "E87200"
-    },
-    {
-      "source": 30,
-      "target": 22,
-      "line": "orange",
-      "color": "E87200"
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 37,
       "target": 38,
-      "line": "orange",
-      "color": "E87200"
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 38,
+      "target": 39,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 39,
+      "target": 40,
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 40,
-      "target": 45,
-      "line": "blue",
-      "color": "2F5DA6"
+      "target": 41,
+      "line": "red",
+      "color": "D90023"
     },
     {
-      "source": 48,
-      "target": 47,
-      "line": "blue",
-      "color": "2F5DA6"
+      "source": 41,
+      "target": 42,
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 42,
-      "target": 46,
-      "line": "blue",
-      "color": "2F5DA6"
-    },
-    {
-      "source": 50,
-      "target": 49,
-      "line": "blue",
-      "color": "2F5DA6"
-    },
-    {
-      "source": 49,
-      "target": 32,
-      "line": "blue",
-      "color": "2F5DA6"
-    },
-    {
-      "source": 47,
-      "target": 40,
-      "line": "blue",
-      "color": "2F5DA6"
-    },
-    {
-      "source": 44,
       "target": 43,
-      "line": "blue",
-      "color": "2F5DA6"
-    },
-    {
-      "source": 46,
-      "target": 41,
-      "line": "blue",
-      "color": "2F5DA6"
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 43,
-      "target": 42,
-      "line": "blue",
-      "color": "2F5DA6"
+      "target": 44,
+      "line": "red",
+      "color": "D90023"
     },
     {
-      "source": 32,
-      "target": 48,
-      "line": "blue",
-      "color": "2F5DA6"
+      "source": 44,
+      "target": 45,
+      "line": "red",
+      "color": "D90023"
     },
     {
       "source": 45,
-      "target": 44,
+      "target": 46,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 46,
+      "target": 47,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 47,
+      "target": 48,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 48,
+      "target": 49,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 49,
+      "target": 50,
+      "line": "red",
+      "color": "D90023"
+    },
+    {
+      "source": 51,
+      "target": 52,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 52,
+      "target": 53,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 53,
+      "target": 54,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 54,
+      "target": 55,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 55,
+      "target": 56,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 56,
+      "target": 57,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 57,
+      "target": 58,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 58,
+      "target": 59,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 59,
+      "target": 60,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 60,
+      "target": 61,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 61,
+      "target": 62,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 62,
+      "target": 63,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 63,
+      "target": 33,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 33,
+      "target": 65,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 65,
+      "target": 66,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 66,
+      "target": 67,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 67,
+      "target": 68,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 68,
+      "target": 69,
+      "line": "green",
+      "color": "107547"
+    },
+    {
+      "source": 70,
+      "target": 71,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 71,
+      "target": 72,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 72,
+      "target": 73,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 73,
+      "target": 74,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 74,
+      "target": 75,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 75,
+      "target": 76,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 76,
+      "target": 77,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 77,
+      "target": 78,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 78,
+      "target": 79,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 79,
+      "target": 35,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 35,
+      "target": 81,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 81,
+      "target": 82,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 82,
+      "target": 83,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 83,
+      "target": 84,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 84,
+      "target": 85,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 85,
+      "target": 86,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 86,
+      "target": 87,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 87,
+      "target": 88,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 88,
+      "target": 89,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 89,
+      "target": 90,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 81,
+      "target": 91,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 91,
+      "target": 92,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 92,
+      "target": 93,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 93,
+      "target": 94,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 94,
+      "target": 95,
+      "line": "orange",
+      "color": "F5a818"
+    },
+    {
+      "source": 96,
+      "target": 97,
       "line": "blue",
-      "color": "2F5DA6"
+      "color": "0a59ae"
+    },
+    {
+      "source": 97,
+      "target": 98,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 98,
+      "target": 99,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 99,
+      "target": 100,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 100,
+      "target": 101,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 101,
+      "target": 102,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 102,
+      "target": 103,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 103,
+      "target": 104,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 104,
+      "target": 105,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 105,
+      "target": 106,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 106,
+      "target": 32,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 32,
+      "target": 108,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 108,
+      "target": 109,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 109,
+      "target": 110,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 110,
+      "target": 111,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 111,
+      "target": 112,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 112,
+      "target": 113,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 113,
+      "target": 114,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 114,
+      "target": 115,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 115,
+      "target": 116,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 116,
+      "target": 117,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 117,
+      "target": 118,
+      "line": "blue",
+      "color": "0a59ae"
+    },
+    {
+      "source": 44,
+      "target": 120,
+      "line": "pink",
+      "color": "ef9298"
+    },
+    {
+      "source": 53,
+      "target": 122,
+      "line": "cyan",
+      "color": "d2de1a"
     }
   ]
 }
