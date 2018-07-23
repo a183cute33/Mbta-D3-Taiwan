@@ -1,8 +1,8 @@
 /* Add styles here TODO modify */
 
 body {
-  margin: 0 auto;
-  width: 1040px;
+  width: 100%;
+  min-width: 768px;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -10,15 +10,109 @@ body {
   font-size: 20px;
 }
 
-svg {
-  font-size: 10px;
+.fixed-container .glyph {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  width: auto;
+  max-width: 610px;
+  vertical-align: top;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 100%
 }
 
-.panel {
-  width: 100%;
-  float: left;
-  clear: none;
-  position: relative;
+@media (min-width:1399px) {
+  .fixed-container .glyph {
+    left: 100px;
+  }
+}
+
+@media (min-width:1499px) {
+  .fixed-container .glyph {
+    left: 150px;
+  }
+}
+
+@media (min-width:1899px) {
+  .fixed-container .glyph {
+    left: 320px;
+  }
+}
+
+@media (max-width:991px) {
+  .fixed-container {
+    text-align: center
+  }
+  .fixed-container .glyph {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 80%
+  }
+  .fixed-container .glyph:before,
+  .fixed-container .glyph:after {
+    content: " ";
+    display: table
+  }
+  .fixed-container .glyph:after {
+    clear: both
+  }
+  .fixed-container .glyph:before,
+  .fixed-container .glyph:after {
+    content: " ";
+    display: table
+  }
+  .fixed-container .glyph:after {
+    clear: both
+  }
+  .fixed-container .fixed-right {
+    padding-left: 0;
+    margin: 0 auto;
+    min-width: 691.2px;
+    max-width: 90%
+  }
+}
+
+.turnstile-table {
+  margin-left: 610px;
+}
+
+@media (max-width:1200px) {
+  .fixed-container {
+    text-align: center
+  }
+  .fixed-container .glyph {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 80%
+  }
+  .fixed-container .glyph:before,
+  .fixed-container .glyph:after {
+    content: " ";
+    display: table
+  }
+  .fixed-container .glyph:after {
+    clear: both
+  }
+  .fixed-container .glyph:before,
+  .fixed-container .glyph:after {
+    content: " ";
+    display: table
+  }
+  .fixed-container .glyph:after {
+    clear: both
+  }
+  .fixed-container .turnstile-table {
+    padding-left: 0;
+    margin: 0 auto;
+    min-width: 691.2px;
+    max-width: 90%
+  }
 }
 
 /* 點點 */
@@ -112,71 +206,6 @@ circle.hover {
   stroke-opacity: 0.5;
 }
 
-/* D3-tip styles */
-
-.d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-  pointer-events: none;
-  font-size: 10px;
-  text-align: left;
-}
-
-/* Creates a small triangle extender for the tooltip */
-
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 15px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  pointer-events: none;
-}
-
-/* Northward tooltips */
-
-.d3-tip.n:after {
-  content: "\25BC";
-  margin: -3px 0 0 0;
-  top: 100%;
-  left: 0;
-  text-align: center;
-}
-
-/* Eastward tooltips */
-
-.d3-tip.e:after {
-  content: "\25C0";
-  margin: -6px 0 0 0;
-  top: 50%;
-  left: -12px;
-}
-
-/* Southward tooltips */
-
-.d3-tip.s:after {
-  content: "\25B2";
-  margin: 0 0 1px 0;
-  top: -8px;
-  left: 0;
-  text-align: center;
-}
-
-/* Westward tooltips */
-
-.d3-tip.w:after {
-  content: "\25B6";
-  margin: -4px 0 0 -1px;
-  top: 50%;
-  left: 100%;
-}
-
 /* 鈺茹寫的css */
 
 circle.station.middle {
@@ -189,4 +218,127 @@ circle.station.middle {
 circle.station.middle:hover {
   stroke-width: 2;
   opacity: 1;
+}
+
+text {
+  fill: #333;
+}
+
+.bar {
+  fill: #cecfc6;
+  shape-rendering: crispEdges;
+}
+
+.active.row .bar {
+  fill: #939581 !important;
+}
+
+.brown {
+  fill: #B57a25;
+  stroke: #B57a25;
+  background-color: #B57a25 !important;
+}
+
+.red {
+  fill: #D90023;
+  stroke: #D90023;
+  background-color: #D90023 !important;
+}
+
+.green {
+  fill: #107547;
+  stroke: #107547;
+  background-color: #107547 !important;
+}
+
+.orange {
+  fill: #F5a818;
+  stroke: #F5a818;
+  background-color: #F5a818 !important;
+}
+
+.blue {
+  fill: #0a59ae;
+  stroke: #0a59ae;
+  background-color: #0a59ae !important;
+}
+
+.pink {
+  fill: #ef9298;
+  stroke: #ef9298;
+  background-color: #ef9298 !important;
+}
+
+.cyan {
+  fill: #d2de1a;
+  stroke: #d2de1a;
+  background-color: #d2de1a !important;
+}
+
+rect.outline {
+  fill: none;
+  stroke: #cecfc6;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+line.border {
+  fill: none;
+  stroke: #cecfc6;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.xAxis path {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.xAxis .tick {
+  font-family: sans-serif;
+  font-size: 6px;
+  fill: #999;
+}
+
+.highlighting.glyph .dimmable {
+  opacity: 0.5 !important;
+}
+
+.highlighting.glyph .dimmable.active {
+  opacity: 1 !important;
+}
+
+.highlighting.turnstile-table .dimmable {
+  opacity: 0.4;
+}
+
+.stop-heatmap {
+  fill: #428bca !important
+}
+
+.light-markup {
+  fill: #999;
+  color: #999
+}
+
+.stop-heatmap rect:hover {
+  fill: #428bca !important
+}
+
+.dimmable {
+  cursor: pointer
+}
+
+.bar:hover {
+  fill: #939581 !important;
+}
+
+.dayLabel {
+  fill: #999;
+  font-size: 8pt;
+}
+
+.heatmap rect:hover {
+  fill: #428bca !important;
 }
